@@ -37,7 +37,7 @@ def get_cred():
     """read csv and get access and secret key"""
     global access_key_id
     global secret_key_id
-    with open("shijo@nuventure.in_accessKeys.csv", 'r') as input:
+    with open("aws_credentials.csv", 'r') as input:
         next(input)
         reader = csv.reader(input)
 
