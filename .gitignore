@@ -1,0 +1,7 @@
+*.pyc
+AI/
+face/
+*.python-version
+manage.py
+*.csv
+.idea/
